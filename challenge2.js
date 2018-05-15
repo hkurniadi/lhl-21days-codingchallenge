@@ -30,10 +30,9 @@ const GRID = [
 
 // Refactored version
 
-let gridWidth = GRID[0].length;
-let gridHeight = GRID.length;
-
 const gridSize = () => {
+  let gridWidth = GRID[0].length;
+  let gridHeight = GRID.length;
   let size = gridWidth + " x " + gridHeight;
 
   return size;
